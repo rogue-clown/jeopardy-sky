@@ -27,6 +27,7 @@ Come talk Jeopardy! on Bluesky! Use the tag #Jeopardy to join the conversation, 
 
 - "#jeopardy"
 - "#jeopardy!"
+- "Jeopardy!"
 
 # safeMode
 
