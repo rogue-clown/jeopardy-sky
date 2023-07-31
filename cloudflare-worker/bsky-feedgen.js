@@ -121,7 +121,7 @@ function getNormalizedQuotedPhrases(query) {
 }
 // Specify the exact keywords. Used Regex /i for case-insensitivity
 function verifySearchTermMatch(text) {
-  const regex = /(#jeopardy|#jeopardy!|(?:jeopardy!))/i;
+  const regex = /(#jeopardy|#jeopardy!|(?:jeopardy!)|(?:on jeopardy!)|(?:on jeopardy))/i;
   return text.match(regex) !== null;
 }
 function fromSearch(query, queryIdx, response, searchParams) {
